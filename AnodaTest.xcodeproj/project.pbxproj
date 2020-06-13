@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10465AD02493D7F600E21FDF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10465ACF2493D7F600E21FDF /* Extensions.swift */; };
+		10465AD22493E76D00E21FDF /* PostImageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10465AD12493E76D00E21FDF /* PostImageCollectionViewModel.swift */; };
+		10465AD42493E82500E21FDF /* PostImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10465AD32493E82500E21FDF /* PostImageCollectionViewCell.swift */; };
+		10465AD62494FA9700E21FDF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10465AD52494FA9700E21FDF /* Constants.swift */; };
+		10465AE2249506AB00E21FDF /* AnodaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10465AE1249506AB00E21FDF /* AnodaTestTests.swift */; };
+		10465AEA249528BD00E21FDF /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 10465AE9249528BD00E21FDF /* test.json */; };
 		10F68A992492814500AD27DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68A982492814500AD27DC /* AppDelegate.swift */; };
 		10F68A9B2492814500AD27DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68A9A2492814500AD27DC /* SceneDelegate.swift */; };
 		10F68A9D2492814500AD27DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68A9C2492814500AD27DC /* ViewController.swift */; };
 		10F68AA02492814500AD27DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F68A9E2492814500AD27DC /* Main.storyboard */; };
 		10F68AA22492814600AD27DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F68AA12492814600AD27DC /* Assets.xcassets */; };
 		10F68AA52492814600AD27DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F68AA32492814600AD27DC /* LaunchScreen.storyboard */; };
+		10F68AAD2492816100AD27DC /* generalData.json in Resources */ = {isa = PBXBuildFile; fileRef = 10F68AAC2492816100AD27DC /* generalData.json */; };
+		10F68AAF2492816800AD27DC /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68AAE2492816800AD27DC /* TableViewModel.swift */; };
+		10F68AB12492816F00AD27DC /* GeneralDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68AB02492816F00AD27DC /* GeneralDataManager.swift */; };
+		10F68AB32492817500AD27DC /* TableViewPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68AB22492817500AD27DC /* TableViewPostCell.swift */; };
+		FD883E7C53CC49E1DDFB7D66 /* Pods_AnodaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284D7D1862B7BE7205A50CB0 /* Pods_AnodaTest.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		10465AE4249506AB00E21FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F68A8D2492814500AD27DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F68A942492814500AD27DC;
+			remoteInfo = AnodaTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		10465ACF2493D7F600E21FDF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		10465AD12493E76D00E21FDF /* PostImageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCollectionViewModel.swift; sourceTree = "<group>"; };
+		10465AD32493E82500E21FDF /* PostImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		10465AD52494FA9700E21FDF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10465ADF249506AB00E21FDF /* AnodaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnodaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10465AE1249506AB00E21FDF /* AnodaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnodaTestTests.swift; sourceTree = "<group>"; };
+		10465AE3249506AB00E21FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10465AE9249528BD00E21FDF /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		10F68A952492814500AD27DC /* AnodaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnodaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F68A982492814500AD27DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F68A9A2492814500AD27DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +53,88 @@
 		10F68AA12492814600AD27DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F68AA42492814600AD27DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F68AA62492814600AD27DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F68AAC2492816100AD27DC /* generalData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generalData.json; sourceTree = "<group>"; };
+		10F68AAE2492816800AD27DC /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		10F68AB02492816F00AD27DC /* GeneralDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralDataManager.swift; sourceTree = "<group>"; };
+		10F68AB22492817500AD27DC /* TableViewPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPostCell.swift; sourceTree = "<group>"; };
+		284D7D1862B7BE7205A50CB0 /* Pods_AnodaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnodaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD15AB9996ABDE9300958B7E /* Pods-AnodaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnodaTest.debug.xcconfig"; path = "Target Support Files/Pods-AnodaTest/Pods-AnodaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D93AE96592E24A899AD3C51A /* Pods-AnodaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnodaTest.release.xcconfig"; path = "Target Support Files/Pods-AnodaTest/Pods-AnodaTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10F68A922492814500AD27DC /* Frameworks */ = {
+		10465ADC249506AB00E21FDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10F68A922492814500AD27DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD883E7C53CC49E1DDFB7D66 /* Pods_AnodaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10465AD72495050500E21FDF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				10465ACF2493D7F600E21FDF /* Extensions.swift */,
+				10465AD52494FA9700E21FDF /* Constants.swift */,
+				10F68AB02492816F00AD27DC /* GeneralDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		10465AD82495052A00E21FDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10F68AAE2492816800AD27DC /* TableViewModel.swift */,
+				10465AD12493E76D00E21FDF /* PostImageCollectionViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10465AD92495057600E21FDF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10465AD32493E82500E21FDF /* PostImageCollectionViewCell.swift */,
+				10F68AB22492817500AD27DC /* TableViewPostCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		10465ADA2495058600E21FDF /* DataSourse */ = {
+			isa = PBXGroup;
+			children = (
+				10465AE9249528BD00E21FDF /* test.json */,
+				10F68AAC2492816100AD27DC /* generalData.json */,
+			);
+			path = DataSourse;
+			sourceTree = "<group>";
+		};
+		10465AE0249506AB00E21FDF /* AnodaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				10465AE1249506AB00E21FDF /* AnodaTestTests.swift */,
+				10465AE3249506AB00E21FDF /* Info.plist */,
+			);
+			path = AnodaTestTests;
+			sourceTree = "<group>";
+		};
 		10F68A8C2492814500AD27DC = {
 			isa = PBXGroup;
 			children = (
 				10F68A972492814500AD27DC /* AnodaTest */,
+				10465AE0249506AB00E21FDF /* AnodaTestTests */,
 				10F68A962492814500AD27DC /* Products */,
+				27E57723D04D430B2E425E8B /* Pods */,
+				FA73FCC774501F081C989C97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				10F68A952492814500AD27DC /* AnodaTest.app */,
+				10465ADF249506AB00E21FDF /* AnodaTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +152,10 @@
 			children = (
 				10F68A982492814500AD27DC /* AppDelegate.swift */,
 				10F68A9A2492814500AD27DC /* SceneDelegate.swift */,
+				10465ADA2495058600E21FDF /* DataSourse */,
+				10465AD92495057600E21FDF /* Cells */,
+				10465AD82495052A00E21FDF /* Model */,
+				10465AD72495050500E21FDF /* Utilities */,
 				10F68A9C2492814500AD27DC /* ViewController.swift */,
 				10F68A9E2492814500AD27DC /* Main.storyboard */,
 				10F68AA12492814600AD27DC /* Assets.xcassets */,
@@ -67,16 +165,53 @@
 			path = AnodaTest;
 			sourceTree = "<group>";
 		};
+		27E57723D04D430B2E425E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD15AB9996ABDE9300958B7E /* Pods-AnodaTest.debug.xcconfig */,
+				D93AE96592E24A899AD3C51A /* Pods-AnodaTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA73FCC774501F081C989C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284D7D1862B7BE7205A50CB0 /* Pods_AnodaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10465ADE249506AB00E21FDF /* AnodaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10465AE6249506AB00E21FDF /* Build configuration list for PBXNativeTarget "AnodaTestTests" */;
+			buildPhases = (
+				10465ADB249506AB00E21FDF /* Sources */,
+				10465ADC249506AB00E21FDF /* Frameworks */,
+				10465ADD249506AB00E21FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10465AE5249506AB00E21FDF /* PBXTargetDependency */,
+			);
+			name = AnodaTestTests;
+			productName = AnodaTestTests;
+			productReference = 10465ADF249506AB00E21FDF /* AnodaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		10F68A942492814500AD27DC /* AnodaTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F68AA92492814600AD27DC /* Build configuration list for PBXNativeTarget "AnodaTest" */;
 			buildPhases = (
+				D53C327F4830FBE56DF91826 /* [CP] Check Pods Manifest.lock */,
 				10F68A912492814500AD27DC /* Sources */,
 				10F68A922492814500AD27DC /* Frameworks */,
 				10F68A932492814500AD27DC /* Resources */,
+				BC2F53AF90C5185A1EC330BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +232,10 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Steven Vovchyna";
 				TargetAttributes = {
+					10465ADE249506AB00E21FDF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 10F68A942492814500AD27DC;
+					};
 					10F68A942492814500AD27DC = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -116,16 +255,26 @@
 			projectRoot = "";
 			targets = (
 				10F68A942492814500AD27DC /* AnodaTest */,
+				10465ADE249506AB00E21FDF /* AnodaTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10465ADD249506AB00E21FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10F68A932492814500AD27DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F68AAD2492816100AD27DC /* generalData.json in Resources */,
 				10F68AA52492814600AD27DC /* LaunchScreen.storyboard in Resources */,
+				10465AEA249528BD00E21FDF /* test.json in Resources */,
 				10F68AA22492814600AD27DC /* Assets.xcassets in Resources */,
 				10F68AA02492814500AD27DC /* Main.storyboard in Resources */,
 			);
@@ -133,7 +282,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC2F53AF90C5185A1EC330BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnodaTest/Pods-AnodaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnodaTest/Pods-AnodaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnodaTest/Pods-AnodaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53C327F4830FBE56DF91826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnodaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		10465ADB249506AB00E21FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10465AE2249506AB00E21FDF /* AnodaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10F68A912492814500AD27DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,10 +340,25 @@
 				10F68A9D2492814500AD27DC /* ViewController.swift in Sources */,
 				10F68A992492814500AD27DC /* AppDelegate.swift in Sources */,
 				10F68A9B2492814500AD27DC /* SceneDelegate.swift in Sources */,
+				10F68AB12492816F00AD27DC /* GeneralDataManager.swift in Sources */,
+				10465AD42493E82500E21FDF /* PostImageCollectionViewCell.swift in Sources */,
+				10465AD62494FA9700E21FDF /* Constants.swift in Sources */,
+				10F68AAF2492816800AD27DC /* TableViewModel.swift in Sources */,
+				10F68AB32492817500AD27DC /* TableViewPostCell.swift in Sources */,
+				10465AD22493E76D00E21FDF /* PostImageCollectionViewModel.swift in Sources */,
+				10465AD02493D7F600E21FDF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10465AE5249506AB00E21FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F68A942492814500AD27DC /* AnodaTest */;
+			targetProxy = 10465AE4249506AB00E21FDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		10F68A9E2492814500AD27DC /* Main.storyboard */ = {
@@ -166,6 +380,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10465AE7249506AB00E21FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68V7NHY2R5;
+				INFOPLIST_FILE = AnodaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stevevovchyna.AnodaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnodaTest.app/AnodaTest";
+			};
+			name = Debug;
+		};
+		10465AE8249506AB00E21FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68V7NHY2R5;
+				INFOPLIST_FILE = AnodaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stevevovchyna.AnodaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnodaTest.app/AnodaTest";
+			};
+			name = Release;
+		};
 		10F68AA72492814600AD27DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,6 +536,7 @@
 		};
 		10F68AAA2492814600AD27DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD15AB9996ABDE9300958B7E /* Pods-AnodaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +549,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stevevovchyna.AnodaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		10F68AAB2492814600AD27DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93AE96592E24A899AD3C51A /* Pods-AnodaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,13 +568,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stevevovchyna.AnodaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10465AE6249506AB00E21FDF /* Build configuration list for PBXNativeTarget "AnodaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10465AE7249506AB00E21FDF /* Debug */,
+				10465AE8249506AB00E21FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		10F68A902492814500AD27DC /* Build configuration list for PBXProject "AnodaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

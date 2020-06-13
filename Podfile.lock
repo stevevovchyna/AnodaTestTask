@@ -1,0 +1,24 @@
+PODS:
+  - DateToolsSwift (5.0.0)
+  - ScrollingPageControl (0.1.1)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - ScrollingPageControl
+  - SnapKit (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - DateToolsSwift
+    - ScrollingPageControl
+    - SnapKit
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  ScrollingPageControl: 7642e1f842000eeccf8bc47a5718e4b678e10f10
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 4b5ccea4731a6e70a618620357f7547f8cd2de1c
+
+COCOAPODS: 1.9.1

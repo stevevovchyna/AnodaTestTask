@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AnodaTest/Pods-AnodaTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework
+${BUILT_PRODUCTS_DIR}/ScrollingPageControl/ScrollingPageControl.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

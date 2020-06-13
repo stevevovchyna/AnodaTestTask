@@ -1,0 +1,52 @@
+[
+    {
+        "username": "milena_thebrowbar",
+        "locationName": "The Brow Bar Kharkov",
+        "numberOfLikes": 100,
+        "lastLikers": [
+            "milena_trump",
+            "taylor_swift",
+            "kanye_west"
+        ],
+        "postText": "@Comment under the post with 💙🌏💫 some #hashTags, emodjis 🐘, and @other_user mention",
+        "userAvatar": "avatar1",
+        "postImages": [
+            "avatar1",
+            "avatar2",
+            "avatar3",
+            "avatar5",
+            "avatar4",
+            "avatar3",
+            "avatar2",
+            "avatar1"
+        ],
+        "postDate": "1591885778.939"
+        
+    },
+    {
+        "username": "stevevovchyna2",
+        "numberOfLikes": 10300,
+        "lastLikers": [
+            "someone_With.cool._nickname"
+        ],
+        "postText": "Фото, щоб @затестити як #хештеги\n#будуть, #відображатися. #ічикомазафарбовується,, #читире— #знаки-посередині #хеш#хеш #тег‘#тег #тег_#тег #тег_тег слово#із#тегом#всередині",
+        "userAvatar": "avatar4",
+        "postImages": [
+            "avatar5"
+        ],
+        "postDate": "1591884778.922"
+    },
+    {
+        "username": "stevevovchyna3",
+        "locationName": "🇸🇬",
+        "numberOfLikes": 10300,
+        "lastLikers": [],
+        "postText": "",
+        "userAvatar": "avatar3",
+        "postImages": [
+            "avatar3",
+            "avatar4"
+        ],
+        "postDate": ""
+    }
+]
